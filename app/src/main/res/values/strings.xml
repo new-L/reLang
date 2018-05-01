@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">reLang</string>
+    <string name="auth">Авторизация</string>
+    <string name="choice_lang">ВЫБОР ЯЗЫКА</string>
+    <string name="title_home">Обучение</string>
+    <string name="title_dashboard">Профиль</string>
+    <string name="title_notifications">Магазин</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="eng">Английский</string>
+    <string name="nem">Немецкий</string>
+    <string name="chLang">Выберите язык</string>
+    <string name="english">Английский</string>
+    <string name="progress_english">Прогресс 0%</string>
+    <string name="german">Немецкий</string>
+    <string name="progress_german">Прогресс 0%</string>
+    <string name="_osnovi">Основы</string>
+    <!--Вопросы-->
+    <string name="q_apple">Отметьте слово \"яблоко\"</string>
+    <string name="q_boy">Отметьте слово \"мальчик\"</string>
+    <string name="q_girl">Отметьте слово \"девочка\"</string>
+    <string name="q_woman">Отметьте слово \"женщина\"</string>
+    <string name="q_man">Отметьте слово \"мужчина\"</string>
+    <string name="q_water">Отметьте слово \"вода\"</string>
+    <string name="q_bread">Отметьте слово \"хлеб\"</string>
+    <string name="edit_q">Переведите с русского</string>
+    <!--Английский-->
+    <string name="check">Проверить</string>
+    <string name="help">Подсказать</string>
+    <string name="next">Дальше</string>
+    <!--Слова "Основы" на английском-->
+    <string name="an_apple">an apple</string>
+    <string name="a_boy">a boy</string>
+    <string name="a_girl">a girl</string>
+    <string name="a_man">a man</string>
+    <string name="a_woman">a woman</string>
+    <string name="bread">bread</string>
+    <string name="water">water</string>
+    <!--Слова "Основы" на русском-->
+    <string name="ru_an_apple">яблоко</string>
+    <string name="ru_a_boy"><u>мальчик</u></string>
+    <string name="ru_a_girl"><u>девочка</u></string>
+    <string name="ru_a_man"><u>мужчина</u></string>
+    <string name="ru_a_woman"><u>женщина</u></string>
+    <string name="ru_bread"><u>хлеб</u></string>
+    <string name="ru_water"><u>вода</u></string>
+    <!--Прогресс бар-->
+    <string name="progress_1">1/14</string>
+    <string name="progress_2">2/14</string>
+    <string name="progress_3">3/14</string>
+    <string name="progress_4">4/14</string>
+    <string name="progress_5">5/14</string>
+    <string name="progress_6">6/14</string>
+    <string name="progress_7">7/14</string>
+    <string name="progress_8">8/14</string>
+    <string name="progress_9">9/14</string>
+    <string name="progress_10">10/14</string>
+    <string name="progress_11">11/14</string>
+    <string name="progress_12">12/14</string>
+    <string name="progress_13">13/14</string>
+    <string name="progress_14">14/14</string>
+
+</resources>

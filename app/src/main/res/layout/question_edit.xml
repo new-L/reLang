@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/translate_q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_q"
+            android:textSize="26sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+                <TextView
+                    android:id="@+id/translate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:text="@string/ru_a_boy"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/translate_q"
+                    android:layout_marginTop="30dp"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/help"
+                    android:layout_toEndOf="@+id/translate"
+                    android:layout_below="@+id/translate_q"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/border_button_edittxt"
+android:layout_marginStart="215dp"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/help" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/eng"
+            android:src="@drawable/a_boy"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/help"/>
+<RelativeLayout
+    android:id="@+id/relativeL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/image"
+    android:layout_marginTop="100dp"
+    android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/first"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_btn"
+            android:layout_marginStart="40dp"
+            android:textSize="19sp"
+            android:text="@string/a_boy" />
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/first"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/border_btn"
+            android:textSize="19sp"
+            android:text="@string/a_girl" />
+
+        <Button
+            android:id="@+id/third"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:layout_toEndOf="@id/fourth"
+            android:background="@drawable/border_btn"
+            android:layout_marginStart="100dp"
+            android:textSize="19sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/an_apple" />
+
+        <Button
+            android:id="@+id/fourth"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first"
+            android:background="@drawable/border_btn"
+            android:layout_marginStart="40dp"
+            android:textSize="19sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/a_woman" />
+</RelativeLayout>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeL"
+            android:background="@drawable/border_button_edittxt"
+            android:layout_centerHorizontal="true"
+            android:textSize="26sp"
+            android:layout_marginTop="75dp"
+            android:text="@string/next"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:layout_below="@+id/next"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="@string/progress_1" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

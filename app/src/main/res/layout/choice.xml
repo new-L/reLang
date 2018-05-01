@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:contentDescription="@string/choice_lang"
+            android:src="@drawable/english" />
+
+        <TextView
+            android:id="@+id/english_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/english" />
+
+        <TextView
+            android:id="@+id/english_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/progress_english" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/imageButton2"
+            android:layout_marginBottom="160dp"
+            android:background="@null"
+            android:contentDescription="@string/choice_lang"
+            android:src="@drawable/german" />
+
+        <TextView
+            android:id="@+id/german_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="105dp"
+            android:textSize="35sp"
+            android:text="@string/german" />
+
+        <TextView
+            android:id="@+id/german_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginBottom="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/progress_german" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
